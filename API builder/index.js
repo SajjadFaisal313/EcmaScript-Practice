@@ -1,13 +1,16 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
+
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.json({ data: ["arsalan", "aashir", "nameera"]});
 });
 
 app.get("/emp", (req, res) => {
-    res.send("im from udgir")
-});
+    res.json("im from udgir")
+});; 
 app.get("/dept", (req, res) => {
     res.send("im react developer") 
 });
