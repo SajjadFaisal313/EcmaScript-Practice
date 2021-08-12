@@ -1,4 +1,5 @@
-const palenderomeOpt = (str) => {(
+const palenderomeOpt = (str) => {
+    (
     return str === str.split("").reverse().join("");
 };
 console.log(palenderomeOpt("madam"));
