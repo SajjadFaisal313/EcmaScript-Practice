@@ -9,3 +9,9 @@ const greatestNum = (arrNum) => {
 };
 
 console.log(greatestNum([2, 5, 9, 4, 15, 8, 19, 7]));
+
+// 1)Declare variable maxNum=0
+// 2)for each
+// 3)check with if condition item>maxNum
+// 4)replace
+// 5)return
