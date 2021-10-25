@@ -5,3 +5,10 @@ const makeTable = (num) => {
 };
 
 makeTable(4);
+
+const count = () => {
+  for (i = 1; i <= 6; i++) {
+    console.log(i * 9);
+  }
+};
+count();

@@ -1,3 +1,3 @@
 const FindEven = (num) => (num % 2 === 0 ? "Even" : "Odd");
 
-console.log(FindEven(14654654));
+console.log(FindEven(1465654));
